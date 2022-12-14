@@ -31,6 +31,7 @@ public class Xadrez {
 	        System.out.println("Posições disponíveis: A4, A6, B3, B7, D3, D7, E4, E6");
 	        System.out.print("Insira a letra (maiúscula): ");
 	        letra = op.next();
+	        //Início das verificações
 	        while (!(letra).equals("A") && !(letra).equals("B") && !(letra).equals("D") && !(letra).equals("E")){
 	            System.out.print("Insira a letra: ");
 	            letra = op.next();
